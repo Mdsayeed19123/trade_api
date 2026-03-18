@@ -56,7 +56,7 @@ export GEMINI_MODEL="gemini-1.5-flash"
 ### 4 – Run the server
 
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --host 0.0.0.0 --port $PORT
 ```
 
 The API is now live at **http://localhost:8000**
