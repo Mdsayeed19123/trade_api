@@ -41,10 +41,10 @@ pip install -r requirements.txt
 
 ```bash
 # Required for AI-powered reports
-export GEMINI_API_KEY="your_gemini_api_key_here"
+export GEMINI_API_KEY="AIzaSyAZZTTEFcB2vgBdkrNwmyF3AMZuyDNWVSk
 
 # Optional overrides (defaults shown)
-export JWT_SECRET_KEY="change_me_in_production"
+export JWT_SECRET_KEY="mySecretKey123!@#"
 export JWT_EXPIRE_MINUTES="60"
 export RATE_LIMIT_MAX_REQUESTS="10"
 export RATE_LIMIT_WINDOW_SECONDS="60"
